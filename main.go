@@ -17,4 +17,10 @@ func main() {
 		"key2": 100,
 	}
 	fmt.Printf("Sum int64 value: %v\n", SumNumber(ints))
+
+	floats := map[string]float64{
+		"key1": 10.0,
+		"key2": 100.0,
+	}
+	fmt.Printf("Sum float64 value: %v\n", SumNumber(floats))
 }
