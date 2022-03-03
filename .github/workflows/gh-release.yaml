@@ -4,12 +4,12 @@ on:
       - main
     paths:
       - '**/RELEASE'
-  pull_request:
-    types: [opened, synchronize]
-    branches:
-      - main
-    paths:
-      - '**/RELEASE'
+        # pull_request:
+        #   types: [opened, synchronize]
+        #   branches:
+        #     - main
+        #   paths:
+        #     - '**/RELEASE'
 
 jobs:
   gh-release:
