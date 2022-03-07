@@ -1,5 +1,4 @@
-tag: v0.1.5
+tag: v0.1.6
 
 releaseNoteGenerator:
-  useReleaseNoteBlock: true
   usePullRequestMetadata: true
