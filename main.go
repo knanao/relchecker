@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type Number interface {
-	int | int32 | int64 | float32 | float64
+	int | int8 | int32 | int64 | float32 | float64
 }
 
 func SumNumber[K comparable, V Number](m map[K]V) V {
@@ -20,6 +20,12 @@ func main() {
 		"key2": 100,
 	}
 	fmt.Printf("Sum int value: %v\n", SumNumber(ints))
+
+	int8s := map[string]int{
+		"key1": 15,
+		"key2": 150,
+	}
+	fmt.Printf("Sum int8 value: %v\n", SumNumber(int8s))
 
 	int32s := map[string]int32{
 		"key1": 20,
