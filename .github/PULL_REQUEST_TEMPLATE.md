@@ -7,5 +7,5 @@
 If no, just write "NONE" in the release-note block below.
 -->
 ```release-note
-
+NONE
 ```
