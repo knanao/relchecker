@@ -45,7 +45,6 @@ func main() {
 	}
 	fmt.Printf("Sum float32 value: %v\n", SumNumber(float32s))
 
-
 	float64s := map[string]float64{
 		"key1": 50.2,
 		"key2": 500.2,
