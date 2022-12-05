@@ -1,1 +1,4 @@
-tag: v0.1.10
+tag: v0.1.9
+
+releaseNoteGenerator:
+  usePullRequestLink: true
